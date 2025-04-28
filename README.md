@@ -1,0 +1,1 @@
+My Obsidian Stock Vault
