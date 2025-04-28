@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "0b1493e7d5fa1320",
+    "type": "split",
+    "children": [
+      {
+        "id": "91af9700683710c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "036dbb299a80f731",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working/quantum concept.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "quantum concept"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "08e589bfe9718841",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6780be2fad76cb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c20d46a979f73a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "File explorer"
+            }
+          },
+          {
+            "id": "1b4f67e4a804fced",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 204.50390243530273
+  },
+  "right": {
+    "id": "3f639eca6acb4b69",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf55a94c833bdf85",
+        "type": "tabs",
+        "dimension": 34.70757430488975,
+        "children": [
+          {
+            "id": "e76f8b064eb66654",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "26619c1f39497b9d",
+        "type": "tabs",
+        "dimension": 65.29242569511025,
+        "children": [
+          {
+            "id": "d0e495b1e55064a4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "c30ca47992347e92",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "graph:Open graph view": true,
+      "obsidian-excalidraw-plugin:New drawing": true,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": true,
+      "audio-recorder:Start/stop recording": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d0e495b1e55064a4",
+  "lastOpenFiles": [
+    "Working/quantum concept.md",
+    "Working/Q - Tracker.md",
+    "Working/GATE Exam.md",
+    "Crap/Journal/28th of April, '25.md",
+    "Crap",
+    "Crap/Media",
+    "Working",
+    "Journal/2025-04-30 Statistical Mechanics Exam!.md",
+    "Calendar",
+    "Excalidraw/Drawing 2025-04-28 15.38.33.excalidraw.md",
+    "Excalidraw",
+    "Crap/Templates/frontmatter.md",
+    "Crap/Journal",
+    "Crap/Templates/latex block.md",
+    "Crap/Templates/ket psi.md",
+    "Crap/Templates/ket phi.md",
+    "Crap/Templates/ket 1.md",
+    "Crap/Templates/ket 0 + ket 1.md",
+    "Crap/Templates/ket 0.md",
+    "Crap/Templates/Journal template.md",
+    "Crap/Templates/flat (music).md",
+    "Crap/Templates/electron.md",
+    "Crap/Templates/electric Field.md",
+    "Crap/Templates/density operator.md",
+    "Crap/Templates/degree (temp).md",
+    "Crap/Templates/bra psi.md",
+    "Crap/Templates/arbitrary vector.md",
+    "Crap/Templates/abstract.md",
+    "Crap/Templates/phi.md",
+    "Crap/Templates/projection operator.md",
+    "Crap/Templates/Zettelkasten Template.md",
+    "Crap/Templates/Quantum Zettelkasten Template.md",
+    "Pasted image 20250419183850.png",
+    "Flashcards",
+    "Intuition",
+    "Crap/Templates",
+    "Exams"
+  ]
+}
