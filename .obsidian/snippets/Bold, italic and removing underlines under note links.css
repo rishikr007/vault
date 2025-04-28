@@ -1,0 +1,88 @@
+/* Remove underline from note links */
+.markdown-preview-view a.internal-link {
+  text-decoration: none !important;
+}
+
+
+/* Transition for smooth color switching */
+.cm-strong,
+.cm-em,
+.markdown-preview-view strong,
+.markdown-preview-view em {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Highlight bold text in Editing Mode */
+.cm-strong {
+  background-color: var(--bold-highlight-bg-light);
+  color: inherit !important;
+  font-weight: bold !important;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Highlight bold text in Reading Mode */
+.markdown-preview-view strong {
+  background-color: var(--bold-highlight-bg-light);
+  color: inherit !important;
+  font-weight: bold !important;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Highlight italic text in Editing Mode */
+.cm-em {
+  background-color: var(--italic-highlight-bg-light);
+  color: inherit !important;
+  font-style: italic !important;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Highlight italic text in Reading Mode */
+.markdown-preview-view em {
+  background-color: var(--italic-highlight-bg-light);
+  color: inherit !important;
+  font-style: italic !important;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Dark mode overrides */
+.theme-dark {
+  --bold-highlight-bg-light: var(--bold-highlight-bg-dark);
+  --italic-highlight-bg-light: var(--italic-highlight-bg-dark);
+}
+
+
+/* ------------------- Preview Mode ------------------- */
+.markdown-preview-view mjx-container[display="true"] {
+  display: block !important;
+  padding: 16px;
+  margin: 16px 0;
+  border: 1px solid var(--divider-color, #444); /* Black/gray border */
+  border-radius: 8px;
+  background-color: var(--background-primary);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ------------------- Edit Mode ------------------- */
+.cm-s-obsidian .HyperMD-codeblock span.cm-math {
+  display: block;
+  padding: 16px;
+  margin: 16px 0;
+  border: 1px solid var(--divider-color, #444); /* Black/gray border */
+  border-radius: 8px;
+  background-color: var(--background-primary);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Optional: Style LaTeX blocks when they're in their own lines */
+.cm-s-obsidian .HyperMD-codeblock {
+  border: 1px solid var(--divider-color, #444);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: var(--background-primary);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}

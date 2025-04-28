@@ -1,0 +1,68 @@
+/* Clean grey outline with rounded corners */
+.zettelkasten table.dataview {
+    border: 1px solid #888888; /* Grey outline */
+    border-radius: 10px; /* Rounded corners */
+    padding: 5px;
+    border-collapse: separate; /* Allows border-radius to work */
+    border-spacing: 0; /* Prevents gaps */
+    overflow: hidden; /* Ensures rounded corners apply properly */
+}
+
+/* Neon blue for "Card" and "Description" headers */
+.zettelkasten table.dataview thead th {
+    color: #79d9e7; /* Light Neon Blue */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #74ee15; /* Neon green underline */
+    padding: 10px;
+    background-color: rgba(121, 217, 231, 0.1); /* Slight background for better visibility */
+}
+
+/* Add a continuous vertical separator */
+.zettelkasten table.dataview th,
+.zettelkasten table.dataview td {
+    border-right: 2px solid #888888; /* Grey separator line */
+    padding: 10px 15px;
+}
+
+/* Remove the right border from the last column */
+.zettelkasten table.dataview th:last-child,
+.zettelkasten table.dataview td:last-child {
+    border-right: none;
+}
+
+/* Standard text color */
+.zettelkasten table.dataview tbody td {
+    color: white;
+    font-size: 1em;
+}
+
+/* Subtle row hover effect for a polished look */
+.zettelkasten table.dataview tbody tr:hover {
+    background-color: rgba(121, 217, 231, 0.1); /* Light blue tint on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Round the top corners of the table */
+.zettelkasten table.dataview thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.zettelkasten table.dataview thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+/* Round the bottom corners of the table */
+.zettelkasten table.dataview tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.zettelkasten table.dataview tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+/* Remove underline from links in Dataview table */
+.zettelkasten table.dataview a {
+    text-decoration: none !important;
+}

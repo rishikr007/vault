@@ -1,0 +1,48 @@
+/* H1 */
+.markdown-preview-view h1,
+.cm-header-1 {
+  color: #0078D4 ;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;  /* Adjust thickness here */
+  text-underline-offset: 4px; /* Adds spacing */
+}
+
+/* H2 */
+.markdown-preview-view h2,
+.cm-header-2 {
+  color: #0078D4;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+/* H3 */
+.markdown-preview-view h3,
+.cm-header-3 {
+  color: #0078D4 ;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+/* H4 */
+.markdown-preview-view h4,
+.cm-header-4 {
+  color:  #0078D4;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px; 
+}
+
+/* H5 */
+.markdown-preview-view h5,
+.cm-header-5 {
+  color: #0078D4;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+/* Remove underline from internal links in editing mode */
+.cm-hmd-internal-link {
+  text-decoration: none !important;
+}
